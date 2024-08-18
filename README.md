@@ -4,6 +4,8 @@
 
 The Crypto Portfolio App is a decentralized finance application that enables users to manage their cryptocurrency portfolio, view transaction history, and perform transactions on the Ethereum blockchain. Built with React and integrated with Ethereum, this app provides a comprehensive platform for cryptocurrency enthusiasts.
 
+## Live Demo: https://crypto-portfolio-app-ysll.vercel.app/
+
 ## Features
 
 - **Connect Wallet**: Connect your Ethereum wallet using MetaMask.

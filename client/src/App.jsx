@@ -1,17 +1,18 @@
 import { Navbar, Welcome, Footer, Transactions } from "./components";
+import { NotificationProvider } from "./context/NotificationContext";
 
 const App = () => (
-  <div className="min-h-screen">
-    <div className="gradient-bg-welcome">
-      <Navbar />
-      <Welcome />
-    </div>
-    
+  <NotificationProvider>
+    <div className="min-h-screen">
+      <div className="gradient-bg-welcome">
+        <Navbar />
+        <Welcome />
+      </div>
 
-    {/* <Services /> */}
-    <Transactions />
-    <Footer />
-  </div>
+      <Transactions />
+      <Footer />
+    </div>
+  </NotificationProvider>
 );
 
 export default App;
